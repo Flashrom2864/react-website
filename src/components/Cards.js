@@ -1,6 +1,8 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import img3 from "images/img-3.jpg"
+import img2 from "images/img-2.jpg"
 
 function Cards() {
   return (
@@ -17,7 +19,7 @@ function Cards() {
             />
             <CardItem
               
-              img src={require('/images/img-2.jpg')} 
+              img src= {require(img2)}
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Luxury'
               path='/services'
@@ -26,7 +28,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
              
-              img src={require('/images/image-3.jpg')} 
+              img src= {require(img3)}
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Mystery'
               path='/services'
