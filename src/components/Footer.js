@@ -31,7 +31,7 @@ function Footer() {
             <h2>About Us</h2>
             <Link to='/sign-up'>How it works</Link>
             <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
+            
             <Link to='/'>Investors</Link>
             <Link to='/'>Terms of Service</Link>
           </div>
@@ -44,13 +44,7 @@ function Footer() {
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
-          </div>
+          
           <div class='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
@@ -64,11 +58,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              ALEXANDRIA
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-name'>Alexandria academy</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
@@ -118,3 +112,16 @@ function Footer() {
 }
 
 export default Footer;
+
+/**
+ * <Link to='/'>Careers</Link>
+ * 
+ * <div class='footer-link-items'>
+            <h2>Videos</h2>
+            <Link to='/'>Submit Video</Link>
+            <Link to='/'>Ambassadors</Link>
+            <Link to='/'>Agency</Link>
+            <Link to='/'>Influencer</Link>
+          </div>
+  
+ */
