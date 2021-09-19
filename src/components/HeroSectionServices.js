@@ -5,10 +5,12 @@ import './HeroSectionServices.css';
 
 function HeroSectionServices() {
   return (
-    <div className='hero-container'>
-    <image src='/videos/Ethereum.jpg'/>
-    <h1>DECENTRALIZED UNIVERSITY</h1>
+  <div className='hero-container'>
+    <img src='/videos/Ethereum.jpg'/>
+    
     <p>Learn to earn and trade crypto</p>
+    <p>Learn from the pros that trade frequently</p>
+    <p>And earn money based on how much you use the service</p>
   </div>
   );
 }
