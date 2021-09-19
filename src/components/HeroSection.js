@@ -1,4 +1,5 @@
 import React from 'react';
+//import { Link } from 'react-router-dom';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
@@ -16,6 +17,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          
         >
           GET STARTED
         </Button>
