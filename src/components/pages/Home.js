@@ -8,10 +8,12 @@ function Home() {
   return (
     <div>
       <HeroSection />
-      <Cards />
+      
       <Footer />
     </div>
   );
 }
 
 export default Home;
+
+//<Cards />

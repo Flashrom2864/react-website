@@ -7,8 +7,10 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='/videos/ezgif.com-gif-maker.mp4' autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+      <h1>DECENTRALIZED UNIVERSITY</h1>
+      <p>Take control of your trade.</p>
+      <p>Real skills taught by experts from around the world</p>
+      <p>Learn and earn*</p>
       <div className='hero-btns'>
         <Button
           className='btns'
