@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function CardItem(props) {
   return (
-    <>
+    
       <li className='cards__item'>
         <Link className='cards__item__link' to={props.path}>
        
@@ -18,7 +18,7 @@ function CardItem(props) {
           </div>
         </Link>
       </li>
-    </>
+    
   );
 }
 
