@@ -43,9 +43,12 @@
 }
 /**background:#d6d6d6;**/
 #container:hover{
+  transition:3s all ease-in-out;
+  -webkit-transition:3s all ease-in-out;
   background-image: url(/videos/Ethereum.jpg);
-  transition:2s all ease-in-out;
-  -webkit-transition:2s all ease-in-out;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: center;
 }
 
 
