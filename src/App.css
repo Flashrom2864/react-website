@@ -41,9 +41,9 @@
   color: #fff;
   font-size: 100px;
 }
-
+/**background:#d6d6d6;**/
 #container:hover{
-  background:#d6d6d6;
+  background-image: url(/videos/Ethereum.jpg);
   transition:2s all ease-in-out;
   -webkit-transition:2s all ease-in-out;
 }
