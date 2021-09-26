@@ -45,7 +45,7 @@
 #container:hover{
   transition:3s all ease-in-out;
   -webkit-transition:3s all ease-in-out;
-  background-image: url(/videos/Ethereum.jpg);
+  background-image: url(/videos/Ethereum.jpg); /**Changes background transition**/
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   background-position: center;
